@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Guide des formulaires
-      link: /formulaires
+      link: /guides/formulaires
     - theme: alt
       text: Page exemple
       link: https://dev.artbrut.ch/fr/exemple

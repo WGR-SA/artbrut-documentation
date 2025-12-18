@@ -9,14 +9,18 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Formulaires', link: '/formulaires' }
+      { text: 'Formulaires', link: '/guides/formulaires' },
+      { text: 'Traductions', link: '/guides/traductions' },
+      { text: 'Couleurs', link: '/guides/colors' }
     ],
 
     sidebar: [
       {
-        text: 'Formulaires',
+        text: 'Guides',
         items: [
-          { text: 'Guide formulaires', link: '/formulaires' }
+          { text: 'Formulaires', link: '/guides/formulaires' },
+          { text: 'Traductions', link: '/guides/traductions' },
+          { text: 'Couleurs', link: '/guides/colors' }
         ]
       },
       {
